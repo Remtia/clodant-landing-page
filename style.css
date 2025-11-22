@@ -1,0 +1,272 @@
+/* ----------------Colors and font styles---------------- */
+/* 
+                   --------Font--------
+Font-family: Roboto
+Font-weight: 900 / 900 / 300
+FOnt-size: 48px / 18px / 24px / 36px / 36px 
+
+                ----------Colors-----------
+
+Primary: #1F2937
+Secondary: #3882F6
+Grey: #F9FAF8
+Grey-tint: #1F2937
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #F9FAF8;
+}
+
+header {
+    background-color: #1F2937;
+    height: 505px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1F2937;
+    text-align: center;
+}
+
+h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+
+}
+
+h4 {
+    color: #1F2937;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+ul {
+    list-style: none;
+}
+
+span {
+    font-style: italic;
+} 
+
+article {
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* -------------Navigation bar------------- */
+
+.navbar {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 60px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+    font-family: Bodoni Moda;
+    line-height: 1.2;
+}
+
+.nav-links-container {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.nav-links:link .nav-links:visited {
+    color: #F9FAF8;
+
+}
+
+.nav-links:hover .nav-links:active {
+    color: #cfd3cc;
+}
+
+/* ---------------Hero section----------------- */
+
+.hero-section {
+    display: flex;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-p {
+    font-size: 18px;
+    color: #F9FAF8;
+    margin-bottom: 15px;
+}
+
+.hero-img {
+    max-width: 450px;
+    width: 100%;
+}
+
+/* ------------------Features section--------------- */
+
+.feature-section {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+
+
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-img {
+    width: 200px;
+    border-radius: 16px;
+    border: 3px solid #3882F6;
+}
+
+
+.feature-p {
+    color: #1F2937;
+    font-size: 18px;
+    text-align: center;
+    width: 200px;
+}
+
+
+/* -----------------------Quote section---------------- */
+
+.quote-container {
+    width: 1000px;
+    
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.cite {
+    color: #1F2937;
+    font-weight: 600;
+    text-align: end;
+}
+
+/* --------------------------CTA section------------------- */
+
+.cta-section {
+    background-color: #F9FAF8;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cta-card {
+    height: 150px;
+    background-color: #3882F6;
+    width: 80%;
+    border-radius: 10px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+/* -----------------------------Components---------------------- */
+
+.button {
+    background-color: #3882F6;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 8px;
+    color: #E5E7EB;
+
+}
+
+.button-primary {
+    width: 120px;
+    text-align: center;
+
+}
+
+.outline {
+    padding: 5px 20px;
+    border: 2px solid #F9FAF8;
+}
+
+
+/* ---------------------------Footer------------------------- */
+
+footer {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 18px;
+    color: #E5E7EB;
+}
